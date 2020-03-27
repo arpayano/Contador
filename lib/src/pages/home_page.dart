@@ -8,11 +8,15 @@ class HomePage extends StatelessWidget{
     return Scaffold( 
 
       appBar: AppBar(title:Text ('Título') ,
+      //color 
+      theme: ThemeData(
+   primaryColor: PrimaryColor,
+   ),
 centerTitle: true,
 
 
       ),
-      body: Center(
+      body: Center( 
         child: Text('Hola Mundo'),
         
         ),
