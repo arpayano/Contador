@@ -13,7 +13,7 @@ class Myapp extends StatelessWidget{
     // TODO: implement build
 return MaterialApp(
   home: Center(
-    child: HomePage(),
+    child: HomePage(), 
 ),//Center 
 );//MaterialApp ,)
 
